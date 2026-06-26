@@ -1,0 +1,18 @@
+# Lesion Insertion Toolbox — application packages (pip)
+# PyTorch GPU is NOT in this file — install it with conda first (see README).
+#
+#   conda create -n lesion_toolbox python=3.11.9
+#   conda activate lesion_toolbox
+#   conda install pytorch=2.4.0 pytorch-cuda=12.4 -c pytorch -c nvidia
+#   pip install -r requirements.txt
+#   python main.py
+
+numpy==1.26.4
+scipy==1.14.0
+h5py==3.11.0
+pydicom==3.0.1
+SimpleITK==2.4.0
+PyQt5==5.15.11
+pyqtgraph==0.13.7
+pytomography==3.4.0
+pyradiomics==3.0.1

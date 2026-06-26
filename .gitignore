@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Logs and local debug output
+*.log
+recon_mem_debug.log
+
+# User data / sessions (optional exports)
+*.json.bak
+
+# PyTorch / CUDA caches
+.cache/
+
+# Sample imaging data (hosted on Zenodo — not in this GitHub repo)
+Sample Data/*
+!Sample Data/README.md
+Data/
